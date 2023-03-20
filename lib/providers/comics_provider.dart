@@ -24,6 +24,7 @@ class ComicsProvider extends ChangeNotifier {
       throw Exception('Failed to load album');
     }
     print(nowComicsResponde);
+    
   }
   // Future<NowComicsResponde> getDisplayComics() async {
   //   final response = await http.get(_baseUrl);
