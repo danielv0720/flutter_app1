@@ -25,7 +25,6 @@ class ComicsProvider extends ChangeNotifier {
     }
     print(nowComicsResponde);
   }
-
   // Future<NowComicsResponde> getDisplayComics() async {
   //   final response = await http.get(_baseUrl);
   //
