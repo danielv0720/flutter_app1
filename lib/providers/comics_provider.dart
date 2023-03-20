@@ -12,7 +12,7 @@ class ComicsProvider extends ChangeNotifier {
     this.getDisplayComics();
   }
 
-  static void getDisplayComics() async {
+  getDisplayComics() async {
     final response = await http.get(_baseUrl);
 
     if (response.statusCode == 200) {
